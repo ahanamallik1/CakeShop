@@ -16,12 +16,12 @@ Prerequisites
 
 ## Setup and run server
 
-- cd CakeShop-main
+- cd CakeShop
 - npm i
 - npm start
 
 ## Setup and run frontend
 
-- cd CakeShop-main/client
+- cd CakeShop/client
 - npm i
 - npm start
