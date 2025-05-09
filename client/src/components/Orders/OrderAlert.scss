@@ -1,0 +1,14 @@
+.alert {
+  width: 100%;
+  text-align: center;
+  max-width: 600px;
+
+  @media (max-width: 992px) {
+    margin-top: 30px;
+    width: 90%;
+  }
+}
+.view-all-recipes-link {
+  margin-top: 15px;
+  text-align: center;
+}
