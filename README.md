@@ -2,6 +2,9 @@
 
 This online bakery app list all the different bakery products and customers can select them and order multiple products. If in any case the stock is empty then Customer is prevented from ordering.
 
+Prerequisites
+(node version 20+)
+
 ## Tech Stack
 
 - React,
@@ -9,6 +12,7 @@ This online bakery app list all the different bakery products and customers can 
 - TypeScript
 - Bootstrap
 - SCCS for styling
+- Express Js
 
 ## Setup and run server
 
