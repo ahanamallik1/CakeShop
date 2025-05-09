@@ -18,10 +18,10 @@ Prerequisites
 
 cd CakeShop-main
 npm i
-npm run start
+npm start
 
 ## Setup and run frontend
 
 cd CakeShop-main/client
 npm i
-npm run start
+npm start
