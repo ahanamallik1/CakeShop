@@ -3,7 +3,7 @@
 This online bakery app list all the different bakery products and customers can select them and order multiple products. 
 If in any case the stock is empty then Customer is prevented from ordering. 
 Users can add products to the cart, and duplicate entries are prevented — only the quantity increases on adding same products multiple times. 
-Both on the product card and in the cart, I enforce stock limits: if a user tries to exceed available stock (e.g., 12 items), a message like “There are not enough Croissants in stock” is shown, and the increment button is disabled. 
+Both on the product card and in the cart, I enforce stock limits: if a user tries to exceed available stock (e.g., 12 items), a message is shown, and the increment button is disabled. 
 Similarly, quantity can’t be decreased below 1.
 
 Prerequisites
