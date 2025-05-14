@@ -1,7 +1,9 @@
 # Bakery App
 The online bakery app lists a variety of bakery products for customers to browse
 Customers can select and order multiple products from the catalog.
-**Out-of-stock prevention: **If an item is out of stock, customers are prevented from placing an order for it.
+
+****Out-of-stock prevention: **
+**If an item is out of stock, customers are prevented from placing an order for it.
 **Cart behavior:**
 Users can add products to their cart.
 Duplicate entries are not allowed — adding the same product again increases its quantity instead.
