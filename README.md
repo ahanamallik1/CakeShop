@@ -6,6 +6,16 @@ Users can add products to the cart, and duplicate entries are prevented — only
 Both on the product card and in the cart, I enforce stock limits: if a user tries to exceed available stock (e.g., 12 items), a message is shown, and the increment button is disabled. 
 Similarly, quantity can’t be decreased below 1. Users can also search products (debounced search, multi word search and singular/plural search) possible.
 
+**Planned Enhancements:**
+1. Pagination for large sets of bakery items. 
+
+2. Filter products based on price.
+3. Persist the store so that the order items persist after page refresh
+
+4. Ability to delete products from the order.
+
+5. Technical improvements, such as integration with React Query.
+
 Prerequisites
 (node version 20+)
 
