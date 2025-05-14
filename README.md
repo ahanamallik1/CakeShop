@@ -1,11 +1,19 @@
 # Bakery App
+The online bakery app lists a variety of bakery products for customers to browse
+Customers can select and order multiple products from the catalog.
+**Out-of-stock prevention: **If an item is out of stock, customers are prevented from placing an order for it.
+**Cart behavior:**
+Users can add products to their cart.
+Duplicate entries are not allowed — adding the same product again increases its quantity instead.
+**Stock limits enforced:**
+Quantity cannot exceed the available stock (e.g., 12 items).
+If a user tries to exceed stock, an appropriate message is shown and the increment button is disabled.
+Minimum quantity limit: Quantity cannot be reduced below 1.
+****Search functionality:**
+**
+Supports multi-word search.
 
-This online bakery app list all the different bakery products and customers can select them and order multiple products. 
-If in any case the stock is empty then Customer is prevented from ordering. 
-Users can add products to the cart, and duplicate entries are prevented — only the quantity increases on adding same products multiple times. 
-Both on the product card and in the cart, I enforce stock limits: if a user tries to exceed available stock (e.g., 12 items), a message is shown, and the increment button is disabled. 
-Similarly, quantity can’t be decreased below 1. Users can also search products (debounced search, multi word search and singular/plural search) possible.
-
+Handles both singular and plural forms (e.g., "cake" and "cakes").
 **Planned Enhancements:**
 1. Pagination for large sets of bakery items. 
 
