@@ -1,5 +1,6 @@
 # Bakery App
 This online bakery app list all the different bakery products and customers can select them and order multiple products. 
+
 **Cart Behaviour : **
 Users can add products to the cart, and duplicate entries are prevented — only the quantity increases on adding same products multiple times.
 **Stock Management : **
