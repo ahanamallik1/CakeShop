@@ -10,6 +10,8 @@ If in any case the stock is empty then Customer is prevented from ordering.  Bot
 Search Functionality:
 Users can also search products (Debounced Search, Multi Word search(Example: cup cake, pan cake) and singular/plural search (cake or cakes)) possible.
 
+The application is fully responsive on Desktop, Laptop, Tablet and mobile devices.
+
 Planned Enhancements:
 1. Pagination for large sets of bakery items. 
 2. Filter products based on price and Fuzzy Search using Fuse.js.
